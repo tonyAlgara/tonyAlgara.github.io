@@ -1,4 +1,4 @@
-# Resume made with Tailwind and Handlebars
+# Resume made with Tailwind and Handlebars ready to print to PDF and publish on the Github Pages
 
 Resume made with html and css using Tailwind and Handlebars. The data is stored in a js file with json format.
 
@@ -6,6 +6,11 @@ Resume made with html and css using Tailwind and Handlebars. The data is stored 
 
 - [Tailwind](https://tailwindcss.com/)
 - [Handlebars](https://handlebarsjs.com/)
+
+# Example
+
+Go to [tonyAlgara.github.io](https://tonyAlgara.github.io) to see the example.
+
 
 ## How to use
 
