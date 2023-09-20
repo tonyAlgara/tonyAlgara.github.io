@@ -1,0 +1,79 @@
+/*Page initially based on https://codepen.io/rafaelcastrocouto/pen/poyWPO */
+body {
+  background: rgb(204, 204, 204);
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+@media print {
+  body,
+  page {
+    background: white;
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+#resume-placeholder {
+  height: 100%;
+}
+
+/* Components */
+.work, .education {
+  position: relative;
+}
+
+.work:before, .education:before {
+  background: #00a2ff;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -15px;
+}
+
+.work:after {
+  background: #00a2ff;
+  content: "";
+  width: 2px;
+  position: absolute;
+  top: 26px;
+  left: -12px;
+  bottom: 16px;
+}
+
+h4, h3 {
+  position: relative;
+  z-index: 0;
+  padding-left: 0.5rem;
+}
+
+h4:before, h3:before {
+  width: 30px;
+  height: 30px;
+  clip-path: polygon(0% 0%, 60% 0%, 100% 50%, 60% 100%, 0% 100%);
+  background: #00a2ff;
+  position: absolute;
+  content: "";
+  z-index: -1;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.decoration {
+  width: 100%;
+  height: 40px;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 00%);
+  content: "";
+  left: 0px;
+}

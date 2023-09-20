@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"
+      integrity="sha512-E1dSFxg+wsfJ4HKjutk/WaCzK7S2wv1POn1RRPGh8ZK+ag9l244Vqxji3r6wgz9YBf6+vhQEYJZpSjqWFPg9gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="resume.js"></script>
+  </head>
+  <script>
+    const basicStyles = {
+      h1: ["text-3xl", "font-bold"],
+      h2: ["text-2xl", "mt-4", "mb-2"],
+      h3: ["text-xl", "mt-4", "mb-2"],
+      h4: ["text-lg", "mt-4", "mb-3"],
+      h5: ["text-base", "mt-3", "mb-2"],
+      h6: ["text-sm", "mt-2", "mb-1"],
+      p: ["text-base", "font-thin"],
+    };
+  </script>
+  <script id="resume" type="text/x-handlebars-template">
+    <!-- Main Columns -->
+    <div class="h-full grid grid-cols-3 gap-4">
+      <!-- Column 1-->
+      <div class="col-span-1 flex flex-col justify-between">
+        <div>
+          <div class="p-4 bg-blue-500 [&>*]:text-white">
+            <img
+              class="rounded-full mb-4 w-4/6 border-4 border-white"
+              src="{{profileImg}}"
+            />
+            <h1>{{name}}</h1>
+            {{#if title}}<h5>{{title}}</h5>{{/if}}
+
+            <div class="flex flex-col space-y-1">
+
+              {{#if email}}
+                <div class="flex row">
+                  <img class="mr-1" src="svg/email.svg" width="18" />
+                  <div>{{email}}</div>
+                </div>
+              {{/if}}
+
+              {{#if phone}}
+                <div class="flex row">
+                  <img class="mr-1" src="svg/phone.svg" width="18" />
+                  <div>{{phone}}</div>
+                </div>
+              {{/if}}
+              <div class="mb-1"></div>
+
+              {{#if website}}
+                <a href="{{website.url}}" target="_blank">
+                  <div class="flex row">
+                    <img class="mr-1" src="svg/website.svg" width="14" />
+                    <div class="text-xs">{{website.name}}</div>
+                  </div>
+                </a>
+              {{/if}}
+
+              {{#if linkedin}}
+                <a href="{{linkedin.url}}" target="_blank">
+                  <div class="flex row">
+                    <img class="mr-1" src="svg/linkedin.svg" width="14" />
+                    <div class="text-xs">{{linkedin.name}}</div>
+                  </div>
+                </a>
+              {{/if}}
+
+              {{#if github}}
+                <a href="{{github.url}}" target="_blank">
+                  <div class="flex row">
+                    <img class="mr-1" src="svg/github.svg" width="14" />
+                    <div class="text-xs">{{github.name}}</div>
+                  </div>
+                </a>
+              {{/if}}
+
+            </div>
+          </div>
+          <div class="bg-blue-500 decoration"></div>
+        </div>
+
+        {{#if summary}}
+          <div class="p-4">
+            <h4>{{i18n.summary}}</h4>
+            <p class="text-xs font-thin">{{{summary}}}</p>
+          </div>
+        {{/if}}
+
+        {{#if languages}}
+          <div class="p-4">
+            <h4>{{i18n.languages}}</h4>
+            {{#each languages}}
+              <div class="pb-1 text-xs">
+                {{name}}
+                <span class="font-thin">({{level}})</span>
+              </div>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if skills}}
+          <div class="p-4">
+            <h4>{{i18n.skills}}</h4>
+            {{#each skills}}
+              <div class="pb-1 text-xs">
+                {{name}}
+                <span class="font-thin">({{level}})</span>
+              </div>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        {{#if interests}}
+          <div class="p-4">
+            <h4>{{i18n.interests}}</h4>
+            {{#each interests}}
+              <div class="pb-1 text-xs">{{name}}</div>
+            {{/each}}
+          </div>
+        {{/if}}
+
+        <div class="m-2 text-xs">
+          Template created by <a href="https://github.com/tonyAlgara">                    <img src="svg/github.svg" width="14" />
+            tonyAlgara</a>,<br>under open source and MIT license.
+        </div>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-span-2 flex flex-col justify-between pt-4 pr-4">
+        <h3>{{i18n.work}}</h3>
+        {{#each work}}
+          <div class="pb-2 ml-4 work">
+            <div>{{title}}</div>
+            <div class="ml-2">
+              <div>
+                <span class="text-blue-600">
+                  {{company}}
+                </span>
+                {{#if website}}
+                  <a href="{{website}}" target="_blank">
+                    <span class="text-xs font-thin">
+                      {{website}}
+                    </span>
+                  </a>{{/if}}
+              </div>
+              <div class="text-xs">
+                {{years}}
+                -
+                <span class="font-thin">{{location}}</span>
+              </div>
+              <p class="mb-1 text-xs">{{description}}</p>
+              <ul class="ml-4 list-disc font-thin marker:text-blue-600">
+                {{#each descriptionPoints}}
+                  <li class="text-xs">{{this}}</li>
+                {{/each}}
+              </ul>
+
+              <div class="flex">
+                {{#each highlights}}
+                  <div class="text-xs">
+                    {{this}}
+                    {{#unless @last}}&#160·&#160{{/unless}}
+                  </div>
+                {{/each}}
+              </div>
+            </div>
+          </div>
+        {{/each}}
+        <div>
+          <h3>{{i18n.education}}</h3>
+          {{#each education}}
+            <div class="pb-2 ml-4 education">
+              <div class="text-s">{{degree}}</div>
+              <div class="text-xs">{{school}}</div>
+              <div class="text-xs font-thin">{{graduation}}</div>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <body>
+    <page size="A4">
+      <div id="resume-placeholder"></div>
+    </page>
+  </body>
+  <script src="index.js"></script>
+</html>
