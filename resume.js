@@ -20,13 +20,8 @@ const resume = {
         "name": "linkedin.com/johndoe",
         "url": "http://linkedin.com/in/johndoe"
     },
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+    "summary": "Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
     "education": [
-        {
-            "school": "University of California, Berkeley",
-            "degree": "B.A. in Computer Science",
-            "graduation": "2012"
-        },
         {
             "school": "University of California, Berkeley",
             "degree": "B.A. in Computer Science",
