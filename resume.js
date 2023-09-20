@@ -20,7 +20,7 @@ const resume = {
         "name": "linkedin.com/johndoe",
         "url": "http://linkedin.com/in/johndoe"
     },
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.\n Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.",
 
     "education": [
         {
@@ -42,6 +42,31 @@ const resume = {
             "location": "San Francisco, CA",
             "website": "http://www.mariobros.com",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+            "descriptionPoints": [
+                "Created a new feature for the website that increased traffic by 20%.",
+                "Implemented a new system that improved efficiency by 30%.",
+                "Worked with a team of 5 to create a new website.",
+                "Planned and executed a new project that increased revenue by 10%."
+            ],
+            "keywords": [
+                "Team Lead",
+                "Project Manager",
+                "Scrum Master"
+            ]
+        },
+        {
+            "company": "Luigi Co.",
+            "title": "Software Engineer",
+            "years": "2012-2014",
+            "location": "San Francisco, CA",
+            "website": "http://www.mariobros.com",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+            "jobAchievements": [
+                "Created a new feature for the website that increased traffic by 20%.",
+                "Implemented a new system that improved efficiency by 30%.",
+                "Worked with a team of 5 to create a new website.",
+                "Planned and executed a new project that increased revenue by 10%."
+            ],
             "descriptionPoints": [
                 "Created a new feature for the website that increased traffic by 20%.",
                 "Implemented a new system that improved efficiency by 30%.",
@@ -80,7 +105,7 @@ const resume = {
             ]
         },
         {
-            "company": "Zelda Inc.",
+            "company": "Kirby Inc.",
             "title": "Software Engineer",
             "years": "2012-2014",
             "location": "San Francisco, CA",
@@ -137,7 +162,11 @@ const resume = {
         {
             "name": "JavaScript",
             "level": "Expert"
-        }
+        },
+        {
+            "name": "React",
+            "level": "Expert"
+        },
     ],
     "interests": [
         {
@@ -145,6 +174,9 @@ const resume = {
         },
         {
             "name": "Video Games"
+        },
+        {
+            "name": "Traveling"
         }
     ],
     "references": [
@@ -163,6 +195,10 @@ const resume = {
         },
         {
             "name": "Spanish",
+            "level": "Conversational"
+        },
+        {
+            "name": "French",
             "level": "Conversational"
         }
     ],
