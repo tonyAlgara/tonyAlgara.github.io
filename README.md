@@ -1,6 +1,6 @@
-# Resume made with Tailwind and Handlebars ready to print to PDF and publish on the Github Pages
+# Resume made with Tailwind and Handlebars
 
-Resume made with html and css using Tailwind and Handlebars. The data is stored in a js file with json format.
+Resume made with html and css using Tailwind and Handlebars. The data is stored in a js file with json format. The resume is ready to print to PDF and publish on the Github Pages.
 
 ## Stack used
 
