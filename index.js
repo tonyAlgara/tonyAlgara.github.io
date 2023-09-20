@@ -4,8 +4,8 @@ const html = template(resume);
 document.getElementById("resume-placeholder").innerHTML = html;
 
 Object.keys(basicStyles).forEach((key) => {
-    console.log(document.getElementsByTagName(key))
-    const elements = document.getElementsByTagName(key)
+    const isClass = key.startsWith(".")
+    const elements = isClass ? document.getElementsByClassName(key.substring(1)) : document.getElementsByTagName(key)
     for (let i = 0; i < elements.length; i++) {
         const element = elements[i];
         basicStyles[key].forEach((style) => {
