@@ -20,7 +20,7 @@ const resume = {
         "name": "linkedin.com/johndoe",
         "url": "http://linkedin.com/in/johndoe"
     },
-    "summary": "Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
+    "summary": "Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.</strong>",
     "education": [
         {
             "school": "University of California, Berkeley",
@@ -39,7 +39,6 @@ const resume = {
             "descriptionPoints": [
                 "Created a new feature for the website that increased traffic by 20%.",
                 "Implemented a new system that improved efficiency by 30%.",
-                "Worked with a team of 5 to create a new website.",
                 "Planned and executed a new project that increased revenue by 10%.",
                 "Created a new feature for the website that increased traffic by 20%.",
             ],
@@ -76,7 +75,6 @@ const resume = {
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
             "descriptionPoints": [
                 "Created a new feature for the website that increased traffic by 20%.",
-                "Implemented a new system that improved efficiency by 30%.",
                 "Worked with a team of 5 to create a new website.",
                 "Planned and executed a new project that increased revenue by 10%."
             ],
@@ -95,8 +93,8 @@ const resume = {
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
             "descriptionPoints": [
                 "Created a new feature for the website that increased traffic by 20%.",
-                "Implemented a new system that improved efficiency by 30%.",
-                "Planned and executed a new project that increased revenue by 10%."
+                "Planned and executed a new project that increased revenue by 10%.",
+                "Created a new feature for the website that increased traffic by 20%."
             ],
             "keywords": [
                 "Team Lead",
@@ -139,7 +137,7 @@ const resume = {
         {
             "name": "React",
             "level": "Expert"
-        },
+        }
     ],
     "interests": [
         {
