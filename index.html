@@ -22,6 +22,7 @@
       h5: ["text-base", "mt-3", "mb-2"],
       h6: ["text-sm", "mt-2", "mb-1"],
       p: ["text-base", "font-thin"],
+      ".leftColumnItem": ["pr-4", "pl-4", "pb-1", "pt-2"],
     };
   </script>
   <script id="resume" type="text/x-handlebars-template">
@@ -88,14 +89,14 @@
         </div>
 
         {{#if summary}}
-          <div class="p-4">
+          <div class="pr-4 pl-4 pb-1">
             <h4>{{i18n.summary}}</h4>
             <p class="text-xs font-thin">{{{summary}}}</p>
           </div>
         {{/if}}
 
         {{#if languages}}
-          <div class="p-4">
+          <div class="leftColumnItem">
             <h4>{{i18n.languages}}</h4>
             {{#each languages}}
               <div class="pb-1 text-xs">
@@ -107,7 +108,7 @@
         {{/if}}
 
         {{#if skills}}
-          <div class="p-4">
+          <div class="leftColumnItem">
             <h4>{{i18n.skills}}</h4>
             {{#each skills}}
               <div class="pb-1 text-xs">
@@ -119,7 +120,7 @@
         {{/if}}
 
         {{#if interests}}
-          <div class="p-4">
+          <div class="leftColumnItem">
             <h4>{{i18n.interests}}</h4>
             {{#each interests}}
               <div class="pb-1 text-xs">{{name}}</div>
@@ -158,8 +159,8 @@
                 {{/each}}
               </ul>
 
-              <div class="flex">
-                {{#each highlights}}
+              <div class="flex pt-1">
+                {{#each keywords}}
                   <div class="text-xs">
                     {{this}}
                     {{#unless @last}}&#160·&#160{{/unless}}
