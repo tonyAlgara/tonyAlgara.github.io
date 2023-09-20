@@ -20,8 +20,7 @@ const resume = {
         "name": "linkedin.com/johndoe",
         "url": "http://linkedin.com/in/johndoe"
     },
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.\n Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.",
-
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
     "education": [
         {
             "school": "University of California, Berkeley",
@@ -46,7 +45,8 @@ const resume = {
                 "Created a new feature for the website that increased traffic by 20%.",
                 "Implemented a new system that improved efficiency by 30%.",
                 "Worked with a team of 5 to create a new website.",
-                "Planned and executed a new project that increased revenue by 10%."
+                "Planned and executed a new project that increased revenue by 10%.",
+                "Created a new feature for the website that increased traffic by 20%.",
             ],
             "keywords": [
                 "Team Lead",
@@ -61,15 +61,8 @@ const resume = {
             "location": "San Francisco, CA",
             "website": "http://www.mariobros.com",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
-            "jobAchievements": [
-                "Created a new feature for the website that increased traffic by 20%.",
-                "Implemented a new system that improved efficiency by 30%.",
-                "Worked with a team of 5 to create a new website.",
-                "Planned and executed a new project that increased revenue by 10%."
-            ],
             "descriptionPoints": [
                 "Created a new feature for the website that increased traffic by 20%.",
-                "Implemented a new system that improved efficiency by 30%.",
                 "Worked with a team of 5 to create a new website.",
                 "Planned and executed a new project that increased revenue by 10%."
             ],
@@ -86,12 +79,6 @@ const resume = {
             "location": "San Francisco, CA",
             "website": "http://www.mariobros.com",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
-            "jobAchievements": [
-                "Created a new feature for the website that increased traffic by 20%.",
-                "Implemented a new system that improved efficiency by 30%.",
-                "Worked with a team of 5 to create a new website.",
-                "Planned and executed a new project that increased revenue by 10%."
-            ],
             "descriptionPoints": [
                 "Created a new feature for the website that increased traffic by 20%.",
                 "Implemented a new system that improved efficiency by 30%.",
@@ -111,16 +98,9 @@ const resume = {
             "location": "San Francisco, CA",
             "website": "http://www.mariobros.com",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
-            "jobAchievements": [
-                "Created a new feature for the website that increased traffic by 20%.",
-                "Implemented a new system that improved efficiency by 30%.",
-                "Worked with a team of 5 to create a new website.",
-                "Planned and executed a new project that increased revenue by 10%."
-            ],
             "descriptionPoints": [
                 "Created a new feature for the website that increased traffic by 20%.",
                 "Implemented a new system that improved efficiency by 30%.",
-                "Worked with a team of 5 to create a new website.",
                 "Planned and executed a new project that increased revenue by 10%."
             ],
             "keywords": [
@@ -137,8 +117,6 @@ const resume = {
             "website": "http://www.mariobros.com",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue.",
             "descriptionPoints": [
-                "Created a new feature for the website that increased traffic by 20%.",
-                "Implemented a new system that improved efficiency by 30%.",
                 "Worked with a team of 5 to create a new website.",
                 "Planned and executed a new project that increased revenue by 10%."
             ],
