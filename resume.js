@@ -7,7 +7,7 @@ const resume = {
     "state": "Catalonia",
     "profileImg": "https://media.licdn.com/dms/image/C4D03AQHPvstwRtrD_g/profile-displayphoto-shrink_800_800/0/1525167395998?e=1701302400&v=beta&t=ibV9UEsfpDdO1OILZNICTHejFVCF1Z5nBph3_62JEfA",
     "github": {
-        "name": "github.com/tonyAlgara",
+        "name": "tonyAlgara",
         "url": "https://github.com/tonyAlgara"
     },
     "linkedin" : {
