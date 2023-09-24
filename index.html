@@ -113,7 +113,9 @@
             {{#each skills}}
               <div class="pb-1 text-xs">
                 {{name}}
+                {{#if level}}
                 <span class="font-thin">({{level}})</span>
+                {{/if}}
               </div>
             {{/each}}
           </div>
