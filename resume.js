@@ -14,7 +14,11 @@ const resume = {
         "name": "tony-algara",
         "url": "www.linkedin.com/in/tony-algara"
     },
-    "summary": "<strong>Experienced developer with more than 12+ years of experience</strong> in miscellaneous successful projects for web, PWA, and mobile apps, from idea to production. Keen on everyday learning, solving problems, and stepping outside the comfort zone. I'm an empathetic, hard-working, and easy-going person.<br><br><strong>References available upn request.</strong>",
+    "website": {
+        "name": "tonyalgara.github.io",
+        "url": "https://tonyalgara.github.io/"
+    },
+    "summary": "<strong>Experienced developer with more than 12+ years of experience</strong> in miscellaneous successful projects for web and mobile apps, from idea to production. Keen on everyday learning, solving problems, and stepping outside the comfort zone. I'm an empathetic, hard-working, and easy-going person.<br><br><strong>References available upn request.</strong>",
     "education": [
         {
             "school": "Universitat Oberta de Catalunya",
