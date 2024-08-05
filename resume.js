@@ -1,8 +1,8 @@
 const resume = {
     "name": "Tony Algara",
     "title": "React Native/Web Developer & Tech Enthusiast",
-    "email": "tony.algara@gmail.com",
-    "phone": "+41782499829",
+    "email": "--",
+    "phone": "--",
     "location": {
         "city": "Vaud",
         "state": "Switzerland",
