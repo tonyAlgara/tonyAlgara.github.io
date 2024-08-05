@@ -83,8 +83,6 @@ const resume = {
                 "Web application developed using React and Firebase/GCP",
                 "Serving as a product developer for a web application managing and digitally signing documents per GDPR and data protection norms.",
                 "Identifying business opportunities and strategizing functionality and user experience.",
-                "Tailoring the technology stack to optimally meet the application's needs.",
-                "Ensuring the thoughtful design and development of the application."
             ],
             "keywords": []
         },
@@ -92,11 +90,11 @@ const resume = {
             "company": "Freelance",
             "title": "Web Developer - E-commerce",
             "years": "September 2011 - Present",
+            "location": "Remote",
             "descriptionPoints": [
                 "Overseeing a successful luxury sunglasses store with over 30K frequently updated and SEO optimized products based on Shopify.",
                 "Creating a web scraping tool to collect data from suppliers and sync with a central database utilizing scraping methods with Node.js",
                 "Built, developed, and maintained a high-traffic website, with over 10M viewers and up to 200k simultaneous viewers.",
-                "Concurrently established several successful e-commerce businesses for Spanish and French companies across various sectors.",
                 "Ensured efficient operations through quick issue resolution and informed decisions on technology, design, logistics, SEO, and SEM."
             ],
             "keywords": []
