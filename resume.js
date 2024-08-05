@@ -30,7 +30,7 @@ const resume = {
     ],
     "work": [
         {
-            "company": "AIly Labs",
+            "company": "Aily Labs",
             "title": "React Native/Web Developer - Platform Team",
             "years": "November 2023 - Present",
             "location": "Barcelona, Catalonia, Spain (Remote)",
