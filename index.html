@@ -56,13 +56,13 @@
               {{/if}}
               <div class="mb-1"></div>
 
-              {{#if website}}
-                <a href="{{website.url}}" target="_blank">
-                  <div class="flex row">
-                    <img class="mr-1" src="svg/website.svg" width="14" />
-                    <div class="text-xs">{{website.name}}</div>
-                  </div>
-                </a>
+              {{#if location}}
+                <div class="flex row">
+                  <img class="mr-1" src="svg/website.svg" width="14" />
+                  <div class="text-xs">{{location.city}}
+                    -
+                    {{location.state}}</div>
+                </div>
               {{/if}}
 
               {{#if linkedin}}
@@ -114,7 +114,7 @@
               <div class="pb-1 text-xs">
                 {{name}}
                 {{#if level}}
-                <span class="font-thin">({{level}})</span>
+                  <span class="font-thin">({{level}})</span>
                 {{/if}}
               </div>
             {{/each}}
