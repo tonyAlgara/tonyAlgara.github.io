@@ -35,7 +35,7 @@ const resume = {
             "website": "https://ailylabs.com/",
             "descriptionPoints": [
                 "Created a hybrid Design System from the ground up, ensuring compatibility with both mobile and web platforms.",
-                "Monitored errors and improved platform performance as a member of the Platform team.",
+                "Monitored errors and improved performance as a member of the Platform team.",
                 "Designed and implemented innovative solutions to enhance platform efficiency.",
                 "Utilized graphs and data visualization tools extensively.",
                 "Established automated error tracking and reporting systems to resolve issues proactively."
