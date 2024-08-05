@@ -1,6 +1,6 @@
 const resume = {
     "name": "Tony Algara",
-    "title": "React Native Developer & Tech Enthusiast",
+    "title": "React Native/Web Developer & Tech Enthusiast",
     "email": "tony.algara@gmail.com",
     "phone": "+41782499829",
     "city": "Lausanne - Vaud",
@@ -10,7 +10,7 @@ const resume = {
         "name": "tonyAlgara",
         "url": "https://github.com/tonyAlgara"
     },
-    "linkedin" : {
+    "linkedin": {
         "name": "tony-algara",
         "url": "https://linkedin.com/in/tony-algara"
     },
@@ -28,9 +28,24 @@ const resume = {
     ],
     "work": [
         {
+            "company": "AIly Labs",
+            "title": "React Native/Web Developer - Platform Team",
+            "years": "November 2023 - Present",
+            "location": "Barcelona, Catalonia, Spain (Remote)",
+            "website": "https://ailylabs.com/",
+            "descriptionPoints": [
+                "Created a hybrid Design System from the ground up, ensuring compatibility with both mobile and web platforms.",
+                "Monitored errors and improved platform performance as a member of the Platform team.",
+                "Designed and implemented innovative solutions to enhance platform efficiency.",
+                "Utilized graphs and data visualization tools extensively.",
+                "Established automated error tracking and reporting systems to resolve issues proactively."
+            ],
+            "keywords": []
+        },
+        {
             "company": "Orbit",
-            "title": "React Native Developer",
-            "years": "January 2022 - Present",
+            "title": "React Native/Web Developer",
+            "years": "January 2022 - November 2023",
             "location": "Oslo, Norway / Barcelona, Catalonia, Spain (Remote)",
             "website": "https://www.getorbit.com/",
             "descriptionPoints": [
@@ -45,7 +60,7 @@ const resume = {
         },
         {
             "company": "Emjoy",
-            "title": "React Native / Full Stack Developer",
+            "title": "React Native/Web - Full Stack Developer",
             "years": "December 2019 - December 2021",
             "location": "Barcelona, Catalonia, Spain",
             "website": "https://www.letsemjoy.com/",
@@ -74,23 +89,12 @@ const resume = {
             "keywords": []
         },
         {
-            "company": "OnlyLens.com",
-            "title": "Ecommerce Manager",
-            "years": "August 2015 - Current",
-            "location": "Barcelona, Catalonia, Spain",
-            "website": "https://onlylens.com/",
+            "company": "Freelance",
+            "title": "Web Developer - E-commerce",
+            "years": "September 2011 - Present",
             "descriptionPoints": [
                 "Overseeing a successful luxury sunglasses store with over 30K frequently updated and SEO optimized products based on Shopify.",
-                "Creating a web scraping tool to collect data from suppliers and sync with a central database utilizing scraping methods with Node.js"
-            ],
-            "keywords": []
-        },
-        {
-            "company": "Freelance Web Development",
-            "title": "Freelance Web Developer",
-            "years": "September 2011 - December 2018",
-            "location": "Barcelona, Catalonia, Spain",
-            "descriptionPoints": [
+                "Creating a web scraping tool to collect data from suppliers and sync with a central database utilizing scraping methods with Node.js",
                 "Built, developed, and maintained a high-traffic website, with over 10M viewers and up to 200k simultaneous viewers.",
                 "Concurrently established several successful e-commerce businesses for Spanish and French companies across various sectors.",
                 "Ensured efficient operations through quick issue resolution and informed decisions on technology, design, logistics, SEO, and SEM."
@@ -111,9 +115,9 @@ const resume = {
         {
             "name": "TypeScript / styled-components",
         },
-      {
+        {
             "name": "E2E, Unit, and Integration Testing",
-      }  
+        }
     ],
     "interests": [
         {
@@ -127,7 +131,7 @@ const resume = {
         }, {
             "name": "Indie Rock Music"
         }
-        ],
+    ],
     "references": [],
     "languages": [
         {
