@@ -1,24 +1,24 @@
 const resume = {
     "name": "Tony Algara",
     "title": "React Native Developer & Tech Enthusiast",
-    "email": "--",
-    "phone": "--",
-    "city": "Barcelona",
-    "state": "Catalonia",
-    "profileImg": "https://media.licdn.com/dms/image/C4D03AQHPvstwRtrD_g/profile-displayphoto-shrink_800_800/0/1525167395998?e=1701302400&v=beta&t=ibV9UEsfpDdO1OILZNICTHejFVCF1Z5nBph3_62JEfA",
+    "email": "tony.algara@gmail.com",
+    "phone": "+41782499829",
+    "city": "Lausanne - Vaud",
+    "state": "Switzerland",
+    "profileImg": "https://tonyalgara.github.io/assets/profile.jpeg",
     "github": {
         "name": "tonyAlgara",
         "url": "https://github.com/tonyAlgara"
     },
     "linkedin" : {
         "name": "tony-algara",
-        "url": "www.linkedin.com/in/tony-algara"
+        "url": "https://linkedin.com/in/tony-algara"
     },
     "website": {
         "name": "tonyalgara.github.io",
         "url": "https://tonyalgara.github.io/"
     },
-    "summary": "<strong>Experienced developer with more than 12+ years of experience</strong> in miscellaneous successful projects for web and mobile apps, from idea to production. Keen on everyday learning, solving problems, and stepping outside the comfort zone. I'm an empathetic, hard-working, and easy-going person.<br><br><strong>References available upn request.</strong>",
+    "summary": "<strong>Experienced developer with 14+ years in web, PWA, and mobile app projects, from idea to production. I’m passionate about continuous learning, problem-solving, and embracing challenges. Empathetic, hard-working, and easy-going, I thrive in collaborative environments and love contributing innovative solutions.</strong>",
     "education": [
         {
             "school": "Universitat Oberta de Catalunya",
