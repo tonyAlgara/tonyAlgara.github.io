@@ -38,7 +38,7 @@ const resume = {
                 "Monitored errors and improved performance as a member of the Platform team.",
                 "Designed and implemented innovative solutions to enhance platform efficiency.",
                 "Utilized graphs and data visualization tools extensively.",
-                "Established automated error tracking and reporting systems to resolve issues proactively."
+                "Established automated error tracking and reporting to resolve issues proactively."
             ],
             "keywords": []
         },
